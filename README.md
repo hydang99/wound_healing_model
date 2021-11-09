@@ -72,8 +72,8 @@ python3 predict.py --predict_src dataset/test/test_img \
 ### Output
 - The numpy array of combining images (after predicting) 
 <p float="left">
-  <img src="Images/image.png" width="300" />
-  <img src="Images/image2.png" width="300" /> 
+  <img src="charts/segmented.png" width="300" />
+  <img src="charts/predicted_sample.png" width="300" /> 
 </p>
 
 ## 3. Mappler
