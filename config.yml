@@ -1,0 +1,30 @@
+dataset:
+  pde: "pde/predict_img/predict_img"
+  deeplearning:
+    train: "dl/train/"
+    test: "dl/test/"
+  patients: ["03016","03017"]
+
+pde:
+  path: "pde"
+  data: "segmented_images"
+  params:
+    dt: 1
+    dx: 1
+    dy: 1
+    start_step_c: 0.1
+    range_c: (0.1, 2)
+    start_step_t: 0.1
+    range_t: (0.1, 1)
+    num_imgs: 4
+  results:
+    imgs: "imgs/"
+    param_dict: "params/"
+
+dl: 
+  path: "dl"
+  data: 
+    train: "train"
+    test: "test"
+
+log: "log"
