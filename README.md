@@ -89,3 +89,6 @@ python3 align.py --align_path dataset/label/
 ## 4. Mathematical Model
 - To solve the mathematical model, we implement ADI_solver, which is an approximation method. 
 - To find the appropriate parameters for each patients, we implement param_search.py and performs at the main function. The results are saved in the log folder
+```
+python3 main.py
+```
